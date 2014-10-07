@@ -1,0 +1,12 @@
+NAME="rodent-icon-theme"
+VERSION=5.0
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Xfce icon theme"
+DESCRIPTION="A scalable icon theme for Xfce and other XDG-compliant desktops."
+HOMEPAGE="http://sourceforge.net/projects/xffm/files/rodent-icon-theme/"
+SRC_URI="mirror://sourceforge/xffm/${NAME}-${VERSION}.tar.gz"
+
+ARCH=noarch
+
+REQUIRES="gdk-pixbuf2.0-svg hicolor-icon-theme"
